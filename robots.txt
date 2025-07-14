@@ -1,0 +1,29 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /cgi-bin/
+Disallow: /private/
+Disallow: /tmp/
+Disallow: /wp-admin/
+Disallow: /search/
+Disallow: /?ref=
+Disallow: /user/profile/
+
+# Block common exploit paths
+Disallow: /*.php$
+Disallow: /*.inc$
+Disallow: /*.sql$
+
+# Sitemap location
+Sitemap: https://teen-patti-gold.in/sitemap.xml
+
+# Crawl delay for heavy pages (adjust as needed)
+Crawl-delay: 3
+
+# Special rules for search engines
+User-agent: Googlebot
+Allow: /images/
+Allow: /styles/
+
+User-agent: Bingbot
+Crawl-delay: 5
